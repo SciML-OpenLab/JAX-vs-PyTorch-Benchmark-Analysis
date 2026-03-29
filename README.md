@@ -87,8 +87,8 @@ flowchart LR
     A[Model Definition<br/>(CNN / Transformer)] --> B[Training Pipeline]
     B --> C[Benchmark Execution]
     C --> D[Logging Module]
-    D --> E[Results Storage<br/>(JSON / CSV)]
-    E --> F[Visualization<br/>(Plots / Graphs)]
+    D --> E[Results Storage]
+    E --> F[Visualization]
 
     subgraph Frameworks
         JAX[JAX Implementation]
@@ -102,7 +102,7 @@ flowchart LR
 
     subgraph Utilities
         U1[Device Management]
-        U2[Reproducibility (Seed Control)]
+        U2[Reproducibility - Seed Control]
         U3[Logger]
     end
 
