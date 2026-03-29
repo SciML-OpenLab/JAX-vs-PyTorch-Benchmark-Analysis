@@ -84,7 +84,7 @@ Both frameworks are evaluated under consistent hardware and dataset conditions.
 
 ```mermaid
 flowchart LR
-    A[Model Definition<br/>(CNN / Transformer)] --> B[Training Pipeline]
+    A[Model Definition] --> B[Training Pipeline]
     B --> C[Benchmark Execution]
     C --> D[Logging Module]
     D --> E[Results Storage]
