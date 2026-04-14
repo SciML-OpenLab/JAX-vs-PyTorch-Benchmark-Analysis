@@ -107,6 +107,117 @@ The framework generates:
 - throughput analysis  
 - convergence graphs  
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Benchmark Dashboard</title>
+    <style>
+        /* Matches the dark aesthetic from your reference image */
+        body {
+            background-color: #0b0e14;
+            color: #ffffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 40px;
+        }
+        
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 columns */
+            gap: 25px; /* Space between the cards */
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        /* Individual Card Style */
+        .chart-card {
+            background-color: #0b0e14;
+            border: 1px solid #333;
+            padding: 15px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .chart-card img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #222;
+            margin-bottom: 15px;
+        }
+
+        /* Caption Styling */
+        .chart-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            margin: 10px 0 5px 0;
+        }
+
+        .chart-desc {
+            font-size: 0.9rem;
+            color: #aaaaaa;
+            margin-bottom: 10px;
+        }
+
+        /* Responsive: Stack cards on smaller screens */
+        @media (max-width: 1000px) {
+            .dashboard-grid { grid-template-columns: repeat(2, 1fr); }
+        }
+        @media (max-width: 600px) {
+            .dashboard-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="dashboard-grid">
+        
+        <div class="chart-card">
+            <img src="Gradient_Computation_Time_vs_Differentiation_Order.jpg" alt="Gradient Comp">
+            <div class="chart-title">Gradient Computation</div>
+            <div class="chart-desc">Comparison of execution time across different differentiation orders.</div>
+        </div>
+
+        <div class="chart-card">
+            <img src="Peak_Memory_Usage_vs_Model_Size.jpg" alt="Memory Usage">
+            <div class="chart-title">Peak Memory Usage</div>
+            <div class="chart-desc">MB consumption scaled against total model parameters.</div>
+        </div>
+
+        <div class="chart-card">
+            <img src="Effective_GPU_Throughput_vs_Batch_Size.png" alt="GPU Throughput">
+            <div class="chart-title">Effective Throughput</div>
+            <div class="chart-desc">TFLOPS performance vs batch size scaling.</div>
+        </div>
+
+        <div class="chart-card">
+            <img src="JIT_Compilation_Time_vs_Model.png" alt="JIT Time">
+            <div class="chart-title">JIT Compilation Time</div>
+            <div class="chart-desc">Initial overhead comparison for different architectures.</div>
+        </div>
+
+        <div class="chart-card">
+            <img src="Training_Step_Time_vs_Model_Architecture.jpg" alt="Step Time">
+            <div class="chart-title">Training Step Time</div>
+            <div class="chart-desc">Latency per step for standard model architectures.</div>
+        </div>
+
+        <div class="chart-card" style="border-style: dashed; opacity: 0.3;">
+            <div style="height: 200px; display: flex; align-items: center; justify-content: center;">
+                Future Metric
+            </div>
+            <div class="chart-title">Pending Analysis</div>
+            <div class="chart-desc">Additional data point to be added.</div>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
 Outputs are saved as:
 
 - PNG files for publication  
