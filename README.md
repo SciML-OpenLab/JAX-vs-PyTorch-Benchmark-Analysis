@@ -110,25 +110,25 @@ The framework generates:
 <table>
   <tr>
     <td align="center">
-      <img src="https://github.com/SciML-OpenLab/JAX-vs-PyTorch-Benchmark-Analysis/blob/c3b4ed21b35da6186f8d81a15bd90c22760962a3/results/Effective_GPU_Throughput_vs_Batch_Size.png" width="250"/><br/>
+      <img src="https://github.com/SciML-OpenLab/JAX-vs-PyTorch-Benchmark-Analysis/blob/68e26017f0f99d7b5fe00441afb494be3911c740/Results/Plots/Effective_GPU_Throughput_vs_Batch_Size.png" width="250"/><br/>
       <b>Effective GPU Throughput vs Batch Size</b><br/>
     </td>
     <td align="center">
-      <img src="https://github.com/SciML-OpenLab/JAX-vs-PyTorch-Benchmark-Analysis/blob/c3b4ed21b35da6186f8d81a15bd90c22760962a3/results/Gradient_Computation_Time_vs_Differentiation_Order.jpg" width="250"/><br/>
+      <img src="https://github.com/SciML-OpenLab/JAX-vs-PyTorch-Benchmark-Analysis/blob/68e26017f0f99d7b5fe00441afb494be3911c740/Results/Plots/Gradient_Computation_Time_vs_Differentiation_Order.jpg" width="250"/><br/>
       <b>Gradient Computation Time vs Differentiation</b><br/>
     </td>
     <td align="center">
-      <img src="https://github.com/SciML-OpenLab/JAX-vs-PyTorch-Benchmark-Analysis/blob/c3b4ed21b35da6186f8d81a15bd90c22760962a3/results/JIT_Compilation_Time_vs_Model.png" width="250"/><br/>
+      <img src="https://github.com/SciML-OpenLab/JAX-vs-PyTorch-Benchmark-Analysis/blob/68e26017f0f99d7b5fe00441afb494be3911c740/Results/Plots/JIT_Compilation_Time_vs_Model.png" width="250"/><br/>
       <b>JIT Compilation Time vs Model</b><br/>
     </td>
   </tr>
   <tr>
     <td align="center">
-      <img src="https://github.com/SciML-OpenLab/JAX-vs-PyTorch-Benchmark-Analysis/blob/c3b4ed21b35da6186f8d81a15bd90c22760962a3/results/Peak_Memory_Usage_vs_Model_Size.jpg" width="250"/><br/>
+      <img src="https://github.com/SciML-OpenLab/JAX-vs-PyTorch-Benchmark-Analysis/blob/68e26017f0f99d7b5fe00441afb494be3911c740/Results/Plots/Peak_Memory_Usage_vs_Model_Size.jpg" width="250"/><br/>
       <b>Peak Memory Usage vs Model Size</b><br/>
     </td>
     <td align="center">
-      <img src="https://github.com/SciML-OpenLab/JAX-vs-PyTorch-Benchmark-Analysis/blob/c3b4ed21b35da6186f8d81a15bd90c22760962a3/results/Training_Step_Time_vs_Model_Architecture.jpg" width="250"/><br/>
+      <img src="https://github.com/SciML-OpenLab/JAX-vs-PyTorch-Benchmark-Analysis/blob/68e26017f0f99d7b5fe00441afb494be3911c740/Results/Plots/Training_Step_Time_vs_Model_Architecture.jpg" width="250"/><br/>
       <b>Training Step Time vs Model Architecture</b><br/>
     </td>
   </tr>
