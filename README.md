@@ -34,19 +34,6 @@ This repository addresses that gap by providing a unified benchmarking environme
 
 ---
 
-## System Architecture
-
-The framework follows a modular pipeline:
-
-Model Definition → Training Pipeline → Benchmark Execution → Logging → Visualization
-
-Each component is designed to support both JAX and PyTorch implementations with minimal modification.
-
----
-
-
----
-
 ## Core Components
 
 ### Model Implementations
