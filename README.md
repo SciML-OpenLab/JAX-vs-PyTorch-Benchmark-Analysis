@@ -134,6 +134,8 @@ The framework generates:
   </tr>
 </table>
 
+
+![Benchmark Dashboard](https://github.com/SciML-OpenLab/JAX-vs-PyTorch-Benchmark-Analysis/blob/359635fc0e67c54f0de173d3357e9d9e0014bbe4/Batchmark_Dashboard.png)
 Outputs are saved as:
 
 - PNG files for publication  
